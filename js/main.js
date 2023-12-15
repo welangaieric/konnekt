@@ -1,6 +1,6 @@
 window.addEventListener('DOMContentLoaded',()=>{
     const modal = $('.modal')
-    // modal.hide()
+     modal.hide()
     $('.buy-btn').on('click',()=>{
        
         modal.show()
