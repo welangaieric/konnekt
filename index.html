@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="pragma" content="no-cache"/>
+    <meta http-equiv="expires" content="-1"/>
+ 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon.png">
+    <link rel="stylesheet" href="./css/main__css.css">
+    <title>KONNEKT Smart Life &vert; Log in</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <nav>
+                <h1>Konnekt Smartlife</h1>
+            </nav>
+        </header>
+      
+        <div class="container">
+            <form action="" id="login">
+                <div class="input-group">
+                    <input type="text"required name="username" placeholder="username">
+                </div>
+                <div class="input-group hidden">
+                    <input type="password" name="password"hidden value="konnekt">
+                </div>
+                <div class="input-group">
+                    <input type="submit" value="Connect" id="connect">
+                </div>
+    
+            </form>
+        </div>
+        <div class="container mt-3">
+            <div class="unblock">Ensure promotional messages are enabled to receive the code. <br>Dial
+                <strong>*456*9*5*5*1#</strong> to unblock.
+            </div>
+        </div>
+        <div class="container mt-3">
+            <div class="btn-group">
+                <button class="btn">Daily</button>
+                <button class="btn">Weekly</button>
+                <button class="btn">Monthly</button>
+            </div>
+        </div>
+        <div class="container mt-3">
+            <div class="package-container">
+                <div class="package">
+                    <h2>24 Hours 3MBps</h2>
+                    <div class="description">
+                        <p><i class="bi bi-hourglass-top"></i> 24 HRS</p>
+                        <p><i class="bi bi-cash"></i> 30 KSH</p>
+                        <p><i class="bi bi-phone"></i> 1 DEVICE</p>
+                    </div>
+                    <button class="buy-btn">BUY</button>
+                </div>
+                
+            </div>
+        </div>
+        <div class="container mt-3 footer">
+            <h5>Contact us:</h5>
+            <div class="contact-info">
+                <p><i class="bi bi-phone"></i>0799-333-639</p>
+                <p><i class="bi bi-whatsapp"></i>0799-333-639</p>
+            </div>
+           
+        </div>
+        <div class="modal" id="payment">
+            <div class="modal-body">
+                <form action="">
+                    <legend>Checkout</legend>
+                    <div class="payment-description">
+                        <p class="main">24 Hours 3MBps</p>
+                        <p><i class="bi bi-hourglass-top"></i> 24 HRS</p>
+                        <p><i class="bi bi-cash"></i> 30 KSH</p>
+                        <p><i class="bi bi-phone"></i> 1 DEVICE</p>
+                    </div>
+                    <div class="payment-input-group">
+                        <input type="number" placeholder="Phone Number">
+                    </div>
+                    <div class="payment-input-group">
+                        <input type="submit" value="BUY" id="buy">
+                    </div>
+                </form>
+            </div>
+            <div class="cancel mt-3">
+                <button class="cancel-btn">Cancel</button>
+            </div>
+            
+        </div>
+        
+        
+    </div>
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
