@@ -326,6 +326,7 @@ nav{
 .buy-btn:hover{
     background-color: var(--green);
     color: var(--white);
+    border: var(--white) solid 1px;
 }
 .footer{
     height: 60px;
