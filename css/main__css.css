@@ -831,8 +831,10 @@ html {
 .profiles-container-header{
     width: 90%;
     padding: 10px;
+    height: 30%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     /* border: #374144 solid; */
 }
 .profiles-container-header i{
