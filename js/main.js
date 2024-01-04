@@ -254,7 +254,7 @@ window.addEventListener('DOMContentLoaded',()=>{
     showSnackbar('Processing')
     setTimeout(()=>{   
         $('.wait').hide()
-        $('.profiles-container').hide()
+        $('.profiles-container').removeClass('showProf')
         scrollToTop()
     },3000)
    }
